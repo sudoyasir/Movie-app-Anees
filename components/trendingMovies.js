@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Text, Image, ScrollView, TouchableOpacity, Dimensions } from 'react-native';
-import Carousel from 'react-native-snap-carousel';
 import { useNavigation } from '@react-navigation/native';
 import { image500 } from '../api/moviedb';
 
