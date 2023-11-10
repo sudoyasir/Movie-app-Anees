@@ -150,7 +150,6 @@ export default function MovieScreen() {
       
       {/* similar movies section */}
       {
-        movie?.id && similarMovies.length>0 && <MovieList title={'Similar Movies'} hideSeeAll={true} data={similarMovies} />
       }
 
     </ScrollView>
