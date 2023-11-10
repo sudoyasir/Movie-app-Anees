@@ -145,7 +145,7 @@ export default function MovieScreen() {
       
       {/* cast */}
       {
-        movie?.id && cast.length>0 && <Cast navigation={navigation} cast={cast} />
+        movie?.id && cast.length>0 && <Cast cast={cast} />
       }
       
       {/* similar movies section */}
