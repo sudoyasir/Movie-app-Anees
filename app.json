@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#2c2c2c"
-      }
+      },
+      "package": "com.yasir2002.appui"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8373d0f-50bb-4038-afe8-d737ebef2ccd"
+      }
     }
   }
 }
